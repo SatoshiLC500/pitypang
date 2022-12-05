@@ -6,7 +6,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     text-align: right;
     margin: 40px;
-    color: white;
+    color: black;
 
 }
 #header{
@@ -23,4 +23,12 @@ body{
 }
 #footer{
     grid-area: footer;
+}
+#wrapper{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "header nav nav"
+        "aside footer content";
 }
