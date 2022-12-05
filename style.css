@@ -9,21 +9,27 @@ body{
     color: black;
 
 }
+
 #header{
     grid-area: header;
 }
+
 #nav{
     grid-area: nav;
 }
+
 #content{
     grid-area: content;
 }
+
 #aside{
     grid-area: aside;
 }
+
 #footer{
     grid-area: footer;
 }
+
 #wrapper{
     display: grid;
     gap: 5px;
@@ -32,6 +38,7 @@ body{
         "header nav nav"
         "aside footer content";
 }
+
 #wrapper > div{
     background-color: brown;
     border-radius: 5px;
