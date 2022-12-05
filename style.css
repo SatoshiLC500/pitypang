@@ -48,3 +48,6 @@ body{
     background-size: cover;
     opacity: 0.5;
 }
+#wrapper > div:hover{
+    opacity: 1;
+}
