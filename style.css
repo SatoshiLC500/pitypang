@@ -7,5 +7,20 @@ body{
     text-align: right;
     margin: 40px;
     color: white;
-    
+
+}
+#header{
+    grid-area: header;
+}
+#nav{
+    grid-area: nav;
+}
+#content{
+    grid-area: content;
+}
+#aside{
+    grid-area: aside;
+}
+#footer{
+    grid-area: footer;
 }
