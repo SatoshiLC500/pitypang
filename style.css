@@ -32,3 +32,9 @@ body{
         "header nav nav"
         "aside footer content";
 }
+#wrapper > div{
+    background-color: brown;
+    border-radius: 5px;
+    padding: 10px;
+    height: 40vh;
+}
