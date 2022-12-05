@@ -7,7 +7,7 @@ body{
     text-align: right;
     margin: 40px;
     color: white;
-
+    font-size: 1.2em;
 }
 
 #header{
@@ -59,4 +59,17 @@ body{
     opacity: 1;
     /* animáció */
     transition: opacity 1s ease;
+}
+
+/* reszponzív, telefonos nézet */
+@media all and (max-width: 700px){
+    #wrapper{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "header"
+            "nav"
+            "aside"
+            "footer"
+            "content";
+    }
 }
