@@ -73,3 +73,19 @@ body{
             "content";
     }
 }
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgba(230, 230, 230, 0.5);
+    border-radius: 5px;
+}
+
+li{
+    float: left;
+}
+a{
+    display: block;
+    text-decoration: none;
+    pading: 15px;
+}
