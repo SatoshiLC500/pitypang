@@ -12,6 +12,7 @@ body{
 
 #header{
     grid-area: header;
+    background-image: url(img/dandelion.jpg);
 }
 
 #nav{
@@ -44,4 +45,6 @@ body{
     border-radius: 5px;
     padding: 10px;
     height: 40vh;
+    background-size: cover;
+    opacity: 0.5;
 }
